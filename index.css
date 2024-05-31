@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    padding: 50px;
+}
+#main-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+#main-form input{
+    outline: none;
+    height: 26px;
+    padding: 0px 10px;
+}
+#btn{
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    background-color:blue;
+    color: #fff;
+    border: none;
+    margin-left: 100px;
+    transition: all ease 0.3s;
+    border-radius: 10px;
+}
+#btn:hover{
+    background-color: #000;
+    transition: all ease 0.3s;
+}
+hr {
+    border: none;
+    border-top: 2px solid black;
+    width: 80%; 
+    margin: 20px auto;
+}
+th, td {
+    text-align: left;
+    vertical-align: middle;
+}
+table{
+    text-align: center;
+    width: 100%;
+}

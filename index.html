@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Expense Tracker</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Expense tracker (in Rs.)</h2>
+            <form id="main-form">
+                <div class="form-div">
+                    <label for="category">Category: </label>
+                    <select name="category" id="category">
+                        <option value="rent">Rent</option>
+                        <option value="clothes">Clothes</option>
+                        <option value="food">Foods</option>
+                        <option value="travel">Travel</option>
+                        <option value="study">Study</option>
+                    </select>
+                </div>
+
+                <div class="form-div">
+                    <label for="amount">Amount :</label>
+                    <input type="number"  id="amount">
+                </div>
+
+                <div class="form-div">
+                    <label for="description">Description :</label>
+                    <input type="text" id="description">
+                </div>
+
+                <div class="form-div">
+                    <label for="date">Date :</label>
+                    <input type="date"  id="date">
+                </div>
+
+                <button id="btn">Add</button>
+            </form>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Amount</th>
+                        <th>Description</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="expense-data">
+                </tbody>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
